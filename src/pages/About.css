@@ -1,0 +1,269 @@
+/* About Page Styles */
+
+/* Page Header */
+.page-header {
+  background: linear-gradient(135deg, #112c4c, #308893);
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.page-subtitle {
+  font-size: 1.25rem;
+  max-width: 800px;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+
+/* Our Story */
+.our-story {
+  background-color: white;
+}
+
+.story-content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.story-text {
+  width: 55%;
+}
+
+.story-text p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+.story-image {
+  width: 45%;
+  height: 400px;
+  background-image: url('../assets/images/team-working.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Our Mission */
+.our-mission {
+  background-color: #f8f9fa;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mission-content {
+  max-width: 800px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.mission-statement {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: var(--primary-color);
+  line-height: 1.6;
+  position: relative;
+  padding: 0 30px;
+}
+
+.mission-statement:before,
+.mission-statement:after {
+  content: '"';
+  font-size: 4rem;
+  color: rgba(52, 152, 219, 0.2);
+  position: absolute;
+}
+
+.mission-statement:before {
+  top: -20px;
+  left: 0;
+}
+
+.mission-statement:after {
+  bottom: -50px;
+  right: 0;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.value-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.value-icon {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.value-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: var(--dark-bg);
+}
+
+.value-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Team Section */
+.team-section {
+  background-color: white;
+}
+
+.team-intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 50px;
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.member-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  margin: 0 auto 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  color: var(--primary-color);
+}
+
+.team-member p {
+  color: #666;
+  font-style: italic;
+}
+
+/* CTA Section */
+.cta-section {
+  background: linear-gradient(135deg, #112c4c, #308893);
+  color: white;
+  text-align: center;
+}
+
+.cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.cta-content p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cta-content .btn {
+  background-color: white;
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  padding: 15px 30px;
+}
+
+.cta-content .btn-secondary {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.cta-content .btn:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  transform: translateY(-2px);
+}
+
+.cta-content .btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+
+  .values-grid,
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .story-content {
+    flex-direction: column;
+  }
+
+  .story-text,
+  .story-image {
+    width: 100%;
+  }
+
+  .story-image {
+    height: 300px;
+    margin-top: 30px;
+  }
+
+  .values-grid,
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page-title {
+    font-size: 2.5rem;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Base of Cube -->
+  <rect x="200" y="350" width="400" height="50" rx="10" fill="#3498db" />
+  
+  <!-- Main Body of Cube -->
+  <rect x="225" y="150" width="350" height="200" rx="15" fill="#2c3e50" />
+  
+  <!-- Display Screen -->
+  <rect x="250" y="175" width="300" height="150" rx="5" fill="#ecf0f1" />
+  <rect x="260" y="185" width="280" height="130" rx="3" fill="#34495e" />
+  
+  <!-- Interface Elements on Screen -->
+  <rect x="275" y="200" width="250" height="20" rx="3" fill="#3498db" />
+  <rect x="275" y="230" width="120" height="15" rx="2" fill="#ecf0f1" />
+  <rect x="275" y="255" width="250" height="15" rx="2" fill="#ecf0f1" />
+  <rect x="275" y="280" width="180" height="15" rx="2" fill="#ecf0f1" />
+  
+  <!-- Control Buttons -->
+  <circle cx="300" cy="320" r="10" fill="#e74c3c" />
+  <circle cx="340" cy="320" r="10" fill="#f1c40f" />
+  <circle cx="380" cy="320" r="10" fill="#2ecc71" />
+  
+  <!-- Connectors and Ports -->
+  <rect x="250" y="370" width="30" height="10" rx="2" fill="#7f8c8d" />
+  <rect x="300" y="370" width="30" height="10" rx="2" fill="#7f8c8d" />
+  <rect x="350" y="370" width="30" height="10" rx="2" fill="#7f8c8d" />
+  <rect x="400" y="370" width="30" height="10" rx="2" fill="#7f8c8d" />
+  <rect x="450" y="370" width="30" height="10" rx="2" fill="#7f8c8d" />
+  <rect x="500" y="370" width="30" height="10" rx="2" fill="#7f8c8d" />
+  
+  <!-- Logo -->
+  <text x="450" y="325" font-family="Arial" font-size="14" font-weight="bold" fill="#3498db">EnjoyCube</text>
+  
+  <!-- Status LEDs -->
+  <circle cx="580" cy="200" r="5" fill="#2ecc71" />
+  <circle cx="580" cy="220" r="5" fill="#3498db" />
+  <circle cx="580" cy="240" r="5" fill="#e74c3c" />
+  
+  <!-- Cooling Vents -->
+  <rect x="550" y="180" width="25" height="3" rx="1" fill="#7f8c8d" />
+  <rect x="550" y="190" width="25" height="3" rx="1" fill="#7f8c8d" />
+  <rect x="550" y="200" width="25" height="3" rx="1" fill="#7f8c8d" />
+  <rect x="550" y="210" width="25" height="3" rx="1" fill="#7f8c8d" />
+  <rect x="550" y="220" width="25" height="3" rx="1" fill="#7f8c8d" />
+  <rect x="550" y="230" width="25" height="3" rx="1" fill="#7f8c8d" />
+  <rect x="550" y="240" width="25" height="3" rx="1" fill="#7f8c8d" />
+  <rect x="550" y="250" width="25" height="3" rx="1" fill="#7f8c8d" />
+  
+  <!-- Shadow -->
+  <ellipse cx="400" cy="420" rx="180" ry="20" fill="#34495e" opacity="0.3" />
+</svg>

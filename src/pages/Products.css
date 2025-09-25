@@ -1,0 +1,355 @@
+/* Products Page Styles */
+
+/* Page Header */
+.page-header {
+  background: linear-gradient(135deg, #112c4c, #308893);
+  color: white;
+  padding: 100px 0 80px;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.page-subtitle {
+  font-size: 1.25rem;
+  max-width: 800px;
+  margin: 0 auto;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+/* Cubes Overview */
+.cubes-overview {
+  background-color: white;
+}
+
+.section-intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 60px;
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.product-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin-top: 50px;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.product-item.reverse {
+  flex-direction: row-reverse;
+}
+
+.product-image {
+  width: 45%;
+  height: 400px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.product-item:nth-child(1) .product-image {
+  background-image: url('../assets/images/enjoycube-diagnostic.svg');
+}
+
+.product-item:nth-child(2) .product-image {
+  background-image: url('../assets/images/enjoycube-mini.svg');
+}
+
+.product-item:nth-child(3) .product-image {
+  background-image: url('../assets/images/enjoycube-enterprise.svg');
+}
+
+.product-details {
+  width: 55%;
+}
+
+.product-details h3 {
+  font-size: 2.2rem;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.product-description {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.product-features {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.product-features li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.product-features li i {
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  width: 25px;
+  text-align: center;
+}
+
+.product-actions {
+  margin-top: 30px;
+}
+
+/* Technical Specifications */
+.tech-specs {
+  background-color: #f8f9fa;
+}
+
+.specs-container {
+  max-width: 100%;
+  overflow-x: auto;
+  margin-top: 50px;
+}
+
+.specs-table-container {
+  min-width: 800px;
+}
+
+.specs-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.specs-table th,
+.specs-table td {
+  padding: 15px 20px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.specs-table th {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.specs-table tr:last-child td {
+  border-bottom: none;
+}
+
+.specs-table tbody tr {
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+.specs-table tbody tr:hover {
+  background-color: #f5f9ff;
+}
+
+.specs-table td:first-child {
+  font-weight: 600;
+  color: #444;
+}
+
+/* Software Solutions */
+.software-solutions {
+  background-color: white;
+}
+
+.solutions-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.solution-card {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.solution-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.solution-icon {
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin-bottom: 25px;
+}
+
+.solution-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: var(--dark-bg);
+}
+
+.solution-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Case Studies */
+.case-studies {
+  background-color: #f8f9fa;
+}
+
+.case-studies-grid {
+  display: grid;
+  /*grid-template-columns: repeat(2, 1fr);*/
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.case-study-card {
+  background-color: white;
+  max-width: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.case-study-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.case-study-image {
+  height: 200px;
+  background-image: url("../assets/images/enjoy-cube-skytg24-03.avif");
+  background-size: cover;
+  background-position: top;
+}
+
+/*.case-study-card:nth-child(1) .case-study-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://images.unsplash.com/photo-1578126927306-7bbfbe3f0e4a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80');
+}
+
+.case-study-card:nth-child(2) .case-study-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://images.unsplash.com/photo-1556742393-d75f468bfcb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80');
+}*/
+
+.case-study-content {
+  padding: 30px;
+}
+
+.case-study-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: var(--dark-bg);
+}
+
+.case-study-result {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.case-study-text {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* CTA Section */
+.cta-section {
+  background: linear-gradient(135deg, #112c4c, #308893);
+  color: white;
+  text-align: center;
+}
+
+.cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.cta-content p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+
+  .product-item,
+  .product-item.reverse {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .product-image,
+  .product-details {
+    width: 100%;
+  }
+
+  .product-image {
+    height: 300px;
+  }
+
+  .solutions-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .case-studies-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 2.5rem;
+  }
+
+  .product-details h3 {
+    font-size: 1.8rem;
+  }
+
+  .solutions-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .specs-table th,
+  .specs-table td {
+    padding: 12px 15px;
+    font-size: 0.9rem;
+  }
+}

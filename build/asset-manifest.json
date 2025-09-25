@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.75d64843.css",
+    "main.js": "/static/js/main.18910180.js",
+    "static/media/enjoycube-enterprise.svg": "/static/media/enjoycube-enterprise.43fa619ffbfe1507513d.svg",
+    "static/media/enjoycube-diagnostic.svg": "/static/media/enjoycube-diagnostic.de3886b9358bc118e6a9.svg",
+    "static/media/enjoycube-mini.svg": "/static/media/enjoycube-mini.8caa867f82e8f6d554ef.svg",
+    "index.html": "/index.html",
+    "static/media/enjoycube-device.svg": "/static/media/enjoycube-device.b6704fc5c359a8286b5a.svg",
+    "static/media/pattern.svg": "/static/media/pattern.c30ed2d4596cbac50219.svg",
+    "main.75d64843.css.map": "/static/css/main.75d64843.css.map",
+    "main.18910180.js.map": "/static/js/main.18910180.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75d64843.css",
+    "static/js/main.18910180.js"
+  ]
+}
