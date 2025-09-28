@@ -20,7 +20,7 @@ const Features = () => {
           
           <div className="feature-item fade-in">
             <div className="feature-image">
-              {/* Placeholder for feature image */}
+              <div className='img-diagnostica img'/>
             </div>
             <div className="feature-details">
               <h3>Diagnostica Automatizzata dei Dispositivi</h3>
@@ -71,7 +71,7 @@ const Features = () => {
 
           <div className="feature-item reverse fade-in">
             <div className="feature-image">
-              {/* Placeholder for feature image */}
+              <div className='img-logging img'/>
             </div>
             <div className="feature-details">
               <h3>Logging e Monitoraggio Centralizzato</h3>

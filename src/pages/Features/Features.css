@@ -45,11 +45,19 @@
   overflow: hidden;
 }
 
-.feature-image img {
+.feature-image > .img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  background-size: cover;
 }
+
+.img-diagnostica{
+  background-image: url("../../assets/images/diagnostica-card.png");
+}
+.img-logging{
+  background-image: url("../../assets/images/logging-card.png");
+}
+
 
 .feature-details {
   width: 55%;
