@@ -1,5 +1,6 @@
 import React from 'react';
-import './Features.css';
+import "./Features.css"
+import WorkflowSection from './components/WorkflowSection.js';
 
 const Features = () => {
   return (
@@ -33,9 +34,9 @@ const Features = () => {
             </div>
           </div>
 
-          <div className="feature-item reverse fade-in">
+          {/*<div className="feature-item reverse fade-in">
             <div className="feature-image">
-              {/* Placeholder for feature image */}
+              {/* Placeholder for feature image }
             </div>
             <div className="feature-details">
               <h3>Gestione Inventario e Tracciabilità</h3>
@@ -52,7 +53,7 @@ const Features = () => {
 
           <div className="feature-item fade-in">
             <div className="feature-image">
-              {/* Placeholder for feature image */}
+              {/* Placeholder for feature image }
             </div>
             <div className="feature-details">
               <h3>Pannello di Assistenza e Supporto</h3>
@@ -66,7 +67,7 @@ const Features = () => {
                 <li>Analisi delle prestazioni</li>
               </ul>
             </div>
-          </div>
+          </div>*/}
 
           <div className="feature-item reverse fade-in">
             <div className="feature-image">
@@ -85,8 +86,13 @@ const Features = () => {
             </div>
           </div>
         </div>
+        
       </section>
-
+      <section className='wf-section section'>
+        <div className='wf-transition'/>
+        <WorkflowSection/>
+      </section>
+      
       {/* Additional Features */}
       <section className="additional-features section">
         <div className="container">

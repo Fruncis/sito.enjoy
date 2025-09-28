@@ -78,6 +78,19 @@
   line-height: 1.5;
 }
 
+.wf-section{
+  padding: 300px 0px;
+  background: var(--light-bg);
+  display: flex;
+  justify-content: center;
+  mask-image: linear-gradient(0deg, #FFFF, 90%,  transparent);
+}
+/*.wf-transition{
+  position: absolute;
+  mask-image: linear-gradient(90deg, #ffff,60% ,  transparent);
+  top: auto;
+}*/
+
 /* Additional Features */
 .additional-features {
   background-color: #f8f9fa;

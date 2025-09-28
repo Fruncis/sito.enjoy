@@ -4,7 +4,7 @@ import './App.css';
 
 // Import pages
 import Home from './pages/Home/Home';
-import Features from './pages/Features';
+import Features from './pages/Features/Features';
 import Products from './pages/Products';
 import About from './pages/About';
 import Contact from './pages/Contact';
