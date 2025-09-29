@@ -43,7 +43,7 @@ const Footer = () => {
               </ul>
             </div>*/}
 
-            <div className="footer-links" style={{gridColumnStart:"3"}}>
+            <div className="footer-links" >
               <h3>Link Rapidi</h3>
               <ul>
                 <li><Link to="/">Home</Link></li>
