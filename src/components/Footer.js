@@ -20,13 +20,13 @@ const Footer = () => {
                 Soluzioni innovative per la gestione, diagnostica e manutenzione dei dispositivi.
               </p>
               <div className="social-links">
-                <a href="https://www.facebook.com/enjoyricondizionati.it" className="social-link">
+                <a href="https://www.facebook.com/enjoyricondizionati.it" className="social-link" target='_blank' rel="noreferrer">
                   <i className="fa-brands fa-facebook-f"></i>
                 </a>
                 <a href="#" className="social-link">
                   <i className="fa-brands fa-linkedin-in"></i>
                 </a>
-                <a href="https://www.instagram.com/enjoyricondizionati/" className="social-link">
+                <a href="https://www.instagram.com/enjoyricondizionati/" className="social-link" target='_blank' rel="noreferrer">
                   <i className="fa-brands fa-instagram"></i>
                 </a>
               </div>
@@ -61,16 +61,17 @@ const Footer = () => {
                   <a
                     href='https://share.google/0OxuINwgOee964Gtr'
                     target='_blank'
+                    rel="noreferrer"
                     className='contact-links'
                   >
                     Corso Vittorio Emanuele II, 52 - 70122 Bari
                   </a>
-                 <a href=''></a>
                 </p>
                 <p><i className="fa-solid fa-phone"></i>
                   <a
                     href='tel:+39 02 213 5117'
                     target='_blank'
+                    rel="noreferrer"
                     className='contact-links'
                   >
                     +39 02 213 5117
@@ -80,6 +81,7 @@ const Footer = () => {
                   <a
                     href='mailto:info@enjoycube.it'
                     target='_blank'
+                    rel="noreferrer"
                     className='contact-links'
                   >
                     info@enjoycube.it

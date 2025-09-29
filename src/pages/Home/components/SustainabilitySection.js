@@ -1,8 +1,7 @@
 import "./SustainabilitySection.css"
 import * as motion from "motion/react-client"
 import leafStatImage from "../../../assets/images/leaf-stat-image.png"
-import { useEffect, useState } from "react"
-import { useAnimate, useAnimation } from "motion/react"
+import { useAnimate} from "motion/react"
 
 const SustainabilityCard = (props)=>{
   const [scope, animate] = useAnimate()
