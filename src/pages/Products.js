@@ -41,7 +41,7 @@ const Products = () => {
               </div>
             </div>
             
-            <div className="product-item reverse fade-in">
+            {/*<div className="product-item reverse fade-in">
               <div className="product-image"></div>
               <div className="product-details">
                 <h3>EnjoyCube Mini</h3>
@@ -59,12 +59,12 @@ const Products = () => {
                   <a href="/contact" className="btn">Richiedi Informazioni</a>
                 </div>
               </div>
-            </div>
+            </div>*/}
             
-            <div className="product-item fade-in">
+            <div className="product-item  reverse fade-in">
               <div className="product-image"></div>
               <div className="product-details">
-                <h3>EnjoyCube Enterprise</h3>
+                <h3>EnjoyCube Multiplo</h3>
                 <p className="product-description">
                   La nostra soluzione hardware più potente per grandi laboratori e catene con alto volume di dispositivi da ricondizionare e necessità di gestione avanzata.
                 </p>
