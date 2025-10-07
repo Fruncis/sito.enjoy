@@ -9,7 +9,7 @@
 }
 
 .sustainability-text {
-  width: 55%;
+  width: 100%;
 }
 
 .section-title.left-aligned {
@@ -48,14 +48,7 @@
   border-radius: 8px;
 }
 
-.stat-test{
-  width: 100%;
-  max-width: 900px;
-  display: flex;
-  justify-content: space-between;
-  background-color: #f8f9fa;
-  border-radius: 8px;
-}
+
 
 .stat-icon {
   font-size: 2rem;

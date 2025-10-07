@@ -1,7 +1,8 @@
 import "./SustainabilitySection.css"
 import * as motion from "motion/react-client"
-import leafStatImage from "../../../assets/images/leaf-stat-image.png"
+
 import { useAnimate} from "motion/react"
+import ImageCard from "./ImageCard"
 
 const SustainabilityCard = (props)=>{
   const [scope, animate] = useAnimate()
@@ -15,7 +16,7 @@ const SustainabilityCard = (props)=>{
     <motion.div
       ref={scope}
       className="stat-card"
-      onClick={()=>{runAnimation()}}
+      //onClick={()=>{runAnimation()}}
       whileHover={{ scale: 1.1}}
     >
       <div className="stat-icon">
@@ -54,24 +55,6 @@ const SustainabilitySection = ()=>{
               <p>Con la gestione intelligente dei dispositivi di EnjoyCube, non stai solo ottimizzando le operazioni—stai contribuendo a un futuro più sostenibile.</p>
               
               <div className="sustainability-stats">
-                <motion.div
-                  className="stat-test"
-                >
-                  <div style={{padding: "20px", maxWidth: "60%"}}>
-                    <div className="stat-icon">
-                      <i className="fa-solid fa-leaf"></i>
-                    </div>
-                    <h3>20% di Riduzione</h3>
-                    <p>dei rifiuti elettronici grazie a cicli di vita dei dispositivi prolungati
-                      consumata con prestazioni ottimizzate dei dispositivi
-                    </p>
-                  </div>
-                  <div style={{width: "33%", }}>
-                    <img src={leafStatImage} alt="immagine" style={{width: "100%", height:"100%", objectFit: "cover",borderBottomRightRadius: "8px", borderTopRightRadius: "8px" }}/>
-                  </div>
-                  
-                  
-                </motion.div>
                 
                 <SustainabilityCard icon="fa-solid fa-leaf" heading="20% di Riduzione" text="dei rifiuti elettronici grazie a cicli di vita dei dispositivi prolungati"/>
                 <SustainabilityCard icon="fa-solid fa-bolt" heading="30% di Energia in Meno" text="consumata con prestazioni ottimizzate dei dispositivi"/>

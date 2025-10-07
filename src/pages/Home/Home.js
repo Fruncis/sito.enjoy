@@ -1,6 +1,8 @@
 import React from 'react';
 import './Home.css';
+import skyImage from "../../assets/images/enjoy-cube-skytg24-03.avif"
 import SustainabilitySection from './components/SustainabilitySection';
+import ImageCard from './components/ImageCard';
 
 const Home = () => {
   return (
@@ -241,16 +243,11 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="rental-option fade-in">
-            <div className="rental-icon">
-              <i className="fa-solid fa-handshake"></i>
-            </div>
-            <div className="rental-content">
-              <h3>Parlano di noi!</h3>
-              <p>clicca per vedere l'intervista di Sky tg24</p>
-              <a href="https://tg24.sky.it/tecnologia/now/2025/04/23/enjoy-cube-come-funziona" className="btn-text" target='_blank'>Scopri di più <i className="fa-solid fa-arrow-right"></i></a>
-            </div>
-          </div>
+          
+          <ImageCard header={"Parlano di noi!"} icon='fa-solid fa-handshake' image={skyImage}>
+            <p>clicca per vedere l'intervista di Sky tg24</p>
+            <a href="https://tg24.sky.it/tecnologia/now/2025/04/23/enjoy-cube-come-funziona" className="btn-text" target='_blank'>Scopri di più <i className="fa-solid fa-arrow-right"></i></a>
+          </ImageCard>
         </div>
       </section>
 
