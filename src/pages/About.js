@@ -12,6 +12,7 @@ const About = () => {
         </div>
       </section>
 
+
       {/* Our Story */}
       <section className="our-story section">
         <div className="container">
@@ -19,13 +20,13 @@ const About = () => {
             <div className="story-text fade-in">
               <h2 className="section-title">La Nostra Storia</h2>
               <p>
-                EnjoyCube è nata da un'idea semplice ma potente: rendere la gestione dei dispositivi ricondizionati più intelligente, efficiente e sicura. Fondata nel 2020, il nostro team di appassionati di tecnologia ed esperti del settore si è unito con una visione condivisa: trasformare il modo in cui le aziende valutano, testano e gestiscono i dispositivi ricondizionati.
+                EnjoyCube è nata da un'idea semplice, ma innovativa: rendere la gestione dei dispositivi ricondizionati più intelligente, efficiente e sicura. Fondata nel 2014, il nostro team di appassionati di tecnologia ed esperti del settore si è unito con una visione condivisa: trasformare il modo in cui le aziende valutano, testano, periziano e gestiscono i dispositivi ricondizionati.
               </p>
               <p>
-                Ciò che è iniziato come una soluzione per la diagnostica dei dispositivi su piccola scala si è evoluto in una piattaforma completa che serve laboratori e aziende di tutte le dimensioni in Italia e oltre. Il nostro percorso è stato caratterizzato da un'innovazione continua, mettendo sempre le esigenze dei professionisti del ricondizionato in primo piano.
+                Ciò che è iniziato come una soluzione per la diagnostica dei dispositivi su piccola scala si è evoluto in una piattaforma completa che serve laboratori e aziende di tutte le dimensioni in Italia e all’estero. Il nostro percorso è stato caratterizzato da un'innovazione continua, mettendo sempre le esigenze e processi dei professionisti del ricondizionato in primo piano.
               </p>
               <p>
-                Oggi, EnjoyCube rappresenta una testimonianza del nostro impegno per l'eccellenza, offrendo una suite di potenti strumenti che standardizzano i processi di valutazione e certificazione, fornendo al contempo approfondimenti e controllo dettagliati per ottimizzare la gestione del laboratorio.
+                Oggi, EnjoyCube rappresenta una testimonianza del nostro impegno per l'eccellenza, offrendo una piattaforma di strumenti utili a standardizzare i processi di valutazione e certificazione, fornendo al contempo approfondimenti e controllo dettagliati per ottimizzare la gestione del laboratorio.
               </p>
             </div>
             <div className="story-image fade-in">
@@ -79,8 +80,8 @@ const About = () => {
           </div>
         </div>
       </section>
-
-      {/* Team Section */}
+      {/*
+      {/* Team Section 
       <section className="team-section section">
         <div className="container">
           <h2 className="section-title">Il Nostro Team</h2>
@@ -90,7 +91,7 @@ const About = () => {
           <div className="team-grid">
             <div className="team-member fade-in">
               <div className="member-photo">
-                {/* Will be styled with CSS background */}
+                {/* Will be styled with CSS background 
               </div>
               <h3>Alessandro Bianchi</h3>
               <p>Fondatore & CEO</p>
@@ -98,7 +99,7 @@ const About = () => {
 
             <div className="team-member fade-in">
               <div className="member-photo">
-                {/* Will be styled with CSS background */}
+                {/* Will be styled with CSS background 
               </div>
               <h3>Valentina Rossi</h3>
               <p>Direttore Tecnico</p>
@@ -106,7 +107,7 @@ const About = () => {
 
             <div className="team-member fade-in">
               <div className="member-photo">
-                {/* Will be styled with CSS background */}
+                {/* Will be styled with CSS background 
               </div>
               <h3>Marco Ferrari</h3>
               <p>Responsabile Sviluppo Prodotto</p>
@@ -114,7 +115,7 @@ const About = () => {
 
             <div className="team-member fade-in">
               <div className="member-photo">
-                {/* Will be styled with CSS background */}
+                {/* Will be styled with CSS background 
               </div>
               <h3>Sofia Marino</h3>
               <p>Direttore Successo Clienti</p>
@@ -122,6 +123,7 @@ const About = () => {
           </div>
         </div>
       </section>
+       */}
 
       {/* CTA Section */}
       <section className="cta-section section">
